@@ -1,0 +1,16 @@
+{
+    "name": "My App",
+    "description": "Description of your app",
+    "launch_path": "/index.html",
+    "icons": {
+    "128": "/img/logo.png"
+    },
+    "default_locale": "en",
+    "type": "privileged",
+    "permissions": {
+        "contacts": {
+            "access": "readwrite",
+            "description": "Describe why there is a need for such permission"
+        }
+    }
+}
